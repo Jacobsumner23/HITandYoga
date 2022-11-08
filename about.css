@@ -1,0 +1,95 @@
+@media only screen and (max-width: 770px) {
+    body {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        width: 100%;
+    }
+}
+.header {
+    background-color:rgb(73, 73, 73);
+    margin-top: 0%;
+    padding: 3%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-shadow: -1px 1px black;
+}
+.HIT { 
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    margin-bottom: 2%;
+    flex-shrink: 0;
+}
+.Yoga {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    flex-shrink: 0;
+}
+
+.content-Training {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; 
+    padding-top: 30px;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-bottom: 1.5px solid lightgray;
+}
+.content-yoga {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; 
+    padding-top: 30px;
+    margin-right: 1%;
+    margin-top: 1%;
+    border-bottom: 1.5px solid lightgray;
+}
+.Training-info {
+    width: 100%;
+    margin-left: 30px;
+}
+.Trainer-name {
+    font-weight: 500;
+    font-size: large;
+
+}
+.time {
+    text-align: justify;
+}
+
+.trainerimg {
+    width: 180px;
+    height: 140px;
+    border-radius: 50%;
+}
+.Schedule, button {
+    margin-left: 0%;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid black;
+    height: 50px;
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button:hover {
+    background-color: green;
+}
